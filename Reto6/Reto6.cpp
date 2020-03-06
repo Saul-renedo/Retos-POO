@@ -22,7 +22,7 @@ int solution(vector<int> &V)
     }
     for(int z = 0; z < V.size(); z++)
     {
-        if(z==0)
+        if(z!=0)
         {
             V[z]==z+1
         }
