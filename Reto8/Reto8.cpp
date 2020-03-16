@@ -1,6 +1,6 @@
 #include<iostream>//Librerias
-#include<vector>
-#include <bits/stdc++.h>
+#include<vector>//Librerias
+#include <bits/stdc++.h>//Librerias
 using namespace std;
 
 vector<int> solution(int N, vector<int> S)//Solucion
@@ -46,6 +46,6 @@ int main()//Metodo principal
     res = solution(N,A);
     for(int e=0;e<res.size();e++)
     {
-        cout<<res[e]<< ",";
+        cout<<res[e]<< ",";//resultante
     }
 }

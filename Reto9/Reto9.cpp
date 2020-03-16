@@ -9,12 +9,12 @@ int main()//Metodo principal
     vector<int> A,N;
     int vofP, a, l, v;
 
-    cout<<"Digite largo del array: ";
+    cout<<"Digite largo del array: ";//Parametro
     cin>>l;
 
     for(int i=0; i<l; i++)
     {
-        cout<<"Espacio " <<i<<" del array es: ";
+        cout<<"Espacio " <<i<<" del array es: ";//Parametro
         cin>> v;
         S.push_back(v);
     }
@@ -56,7 +56,7 @@ int main()//Metodo principal
                 a=A[e];
             }
           }
-          cout<<"El entero positivo más pequeño: "<<a+1<<endl;
+          cout<<"El entero positivo más pequeño: "<<a+1<<endl;//Resultante
         }
         else
         {
@@ -67,6 +67,6 @@ int main()//Metodo principal
     }
     else
     {
-        cout<<"El entero positivo más pequeño: "<<1<<endl;
+        cout<<"El entero positivo más pequeño: "<<1<<endl;//Resultante
     }
 }
